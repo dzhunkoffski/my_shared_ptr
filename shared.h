@@ -1,7 +1,5 @@
 #pragma once
 
-#include "sw_fwd.h"  // Forward declaration
-
 #include <cstddef>  // std::nullptr_t
 
 class ControlBlockBase {
@@ -102,10 +100,6 @@ public:
             : data_(ptr), control_block_(other.control_block_) {
         ++control_block_->ref_cnt;
     }
-
-    // Promote `WeakPtr`
-    // #11 from https://en.cppreference.com/w/cpp/memory/shared_ptr/shared_ptr
-    //    explicit SharedPtr(const WeakPtr<T>& other);
 
     ////////////////////////////////////////////////////////////////////////////////////////////////
     // `operator=`-s

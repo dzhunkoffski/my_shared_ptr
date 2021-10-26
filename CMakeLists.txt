@@ -3,4 +3,4 @@ project(my_shared_ptr)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(my_shared_ptr main.cpp)
+add_executable(my_shared_ptr main.cpp shared.h allocations_checker.h)

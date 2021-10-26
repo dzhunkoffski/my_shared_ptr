@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dzhunkoff/my_shared_ptr/allocations_checker.h
+atomic
+-
+cassert
+-
+sanitizer/allocator_interface.h
+-
+
+/home/dzhunkoff/my_shared_ptr/main.cpp
+iostream
+-
+allocations_checker.h
+/home/dzhunkoff/my_shared_ptr/allocations_checker.h
+memory
+-
+cassert
+-
+shared.h
+/home/dzhunkoff/my_shared_ptr/shared.h
+
+/home/dzhunkoff/my_shared_ptr/shared.h
+cstddef
+-
+

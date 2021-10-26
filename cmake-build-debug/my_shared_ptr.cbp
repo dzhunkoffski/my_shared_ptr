@@ -82,7 +82,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/dzhunkoff/my_shared_ptr/allocations_checker.h">
+			<Option target="my_shared_ptr"/>
+		</Unit>
 		<Unit filename="/home/dzhunkoff/my_shared_ptr/main.cpp">
+			<Option target="my_shared_ptr"/>
+		</Unit>
+		<Unit filename="/home/dzhunkoff/my_shared_ptr/shared.h">
 			<Option target="my_shared_ptr"/>
 		</Unit>
 		<Unit filename="/home/dzhunkoff/my_shared_ptr/CMakeLists.txt">
