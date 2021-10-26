@@ -1,0 +1,3 @@
+/home/dzhunkoff/my_shared_ptr/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/dzhunkoff/my_shared_ptr/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/dzhunkoff/my_shared_ptr/cmake-build-debug/CMakeFiles/my_shared_ptr.dir
